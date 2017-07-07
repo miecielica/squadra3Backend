@@ -1,0 +1,18 @@
+{
+  "container": {
+    "name": "container",
+    "connector": "loopback-component-storage",
+    "provider": "filesystem",
+    "root": "./uploads"
+  },
+  "db": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgres://basti:test@localhost/db",
+    "database": "db",
+    "password": "test",
+    "name": "db",
+    "user": "basti",
+    "connector": "postgresql"
+  }
+}

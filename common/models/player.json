@@ -1,0 +1,29 @@
+{
+  "name": "player",
+  "plural": "players",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "position": {
+      "type": [
+        "string"
+      ]
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string",
+      "index": {
+        "unique": true
+      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
